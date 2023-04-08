@@ -1,5 +1,7 @@
 ﻿using SteamAuth;
 
+namespace SteamGuardCode;
+
 static class SteamTOTP
 {
 	public static string GenerateSteamCode(string sharedSecret)
